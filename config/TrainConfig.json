@@ -1,0 +1,19 @@
+{
+    "train":
+    {
+        "model": "res_unet", 
+        "optimizer" : "Adam",
+        "input_nc" : 1,
+        "output_nc" : 1,
+        "lr" : 5e-6,
+        "train_batch_size" : 8,
+        "test_batch_size" : 8,
+        "epochs" : 400,
+        "steps_per_epoch" : 1,
+        "num_workers" : 4,
+        "device" : "0",
+        "save_dir" : "D:\\model\\covid-19-new",
+        "save_model": true, 
+        "mark": "None"
+    }
+}
